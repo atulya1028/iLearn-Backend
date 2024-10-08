@@ -1,0 +1,30 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.field{
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+}
+
+.sign-up-btn{
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.form-border{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
