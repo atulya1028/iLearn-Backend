@@ -1,0 +1,264 @@
+.header-p {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    .logo-co {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  @media screen and (min-width: 431px) and (max-width: 540px) {
+    .logo-co {
+      width: 150px;
+      height: 200px;
+    }
+  }
+  @media screen and (min-width: 541px) and (max-width: 768px) {
+    .logo-co {
+      width: 250px;
+      height: 300px;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .logo-co {
+      width: 250px;
+      height: 300px;
+    }
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .logo-co {
+      width: 250px;
+      height: 200px;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 430px) {
+    .books-co {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  @media screen and (min-width: 431px) and (max-width: 540px) {
+    .books-co {
+      width: 150px;
+      height: 200px;
+    }
+  }
+  @media screen and (min-width: 541px) and (max-width: 768px) {
+    .books-co {
+      width: 250px;
+      height: 300px;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .books-co {
+      width: 250px;
+      height: 200px;
+    }
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .books-co {
+      width: 250px;
+      height: 200px;
+    }
+  }
+
+  .payment-body{
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+@media screen and (min-width:320px) and (max-width:430px) {
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 0;
+  }
+}
+@media screen and (min-width:1025px) and (max-width:1500px) {
+  .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 0 0;
+  }
+}
+
+  .box1{
+    width: 100%;
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 20px;
+  }
+  .box2{
+    width: 100%;
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 20px;
+  }
+
+  .one-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+ @media screen and (min-width:320px) and (max-width:430px) {
+  .short-font{
+    font-size: 12px;
+  }
+ }
+ @media screen and (min-width:1025px) and (max-width:1500px) {
+  .short-font{
+    font-size: 15px;
+  }
+ }
+ 
+
+  .change-link{
+    color: black;
+  }
+
+ @media screen and (min-width:320px) and (max-width:430px) {
+  .one-line-box2{
+    display: flex;
+    gap: 42px;
+  }
+}
+
+ @media screen and (min-width:431px) and (max-width:540px) {
+  .one-line-box2{
+    display: flex;
+    gap: 94px;
+  }
+ }
+ @media screen and (min-width:541px) and (max-width:768px) {
+  .one-line-box2{
+    display: flex;
+    gap: 165px;
+  }
+ }
+ @media screen and (min-width:769px) and (max-width:1024px) {
+  .one-line-box2{
+    display: flex;
+    gap: 206px;
+  }
+ }
+ @media screen and (min-width:1025px) and (max-width:1500px) {
+  .one-line-box2{
+    display: flex;
+    gap: 206px;
+  }
+ }
+
+  @media screen and (min-width:1025px) and (max-width:1500) {
+    .one-line-box2{
+      display: flex;
+      gap: 193px;
+    }
+  }
+
+  @media screen and (min-width:320px) and (max-width:430px) {
+    .subtotal{
+      margin-top: 10px;
+      display: flex;
+      gap: 245px;
+    }
+   }
+  @media screen and (min-width:431px) and (max-width:540px) {
+    .subtotal{
+      margin-top: 10px;
+      display: flex;
+      gap: 355px;
+    }
+   }
+  @media screen and (min-width:541px) and (max-width:768px) {
+    .subtotal{
+      margin-top: 10px;
+      display: flex;
+      gap: 500px;
+    }
+   }
+  @media screen and (min-width:769px) and (max-width:1024px) {
+    .subtotal{
+      margin-top: 10px;
+      display: flex;
+      gap: 580px;
+    }
+   }
+  
+ @media screen and (min-width:1025px) and (max-width:1500px) {
+  .subtotal{
+    margin-top: 10px;
+    display: flex;
+    gap: 510px;
+  }
+ }
+  
+ @media screen and (min-width:320px) and (max-width:430px) {
+  .total{
+    margin-top: 10px;
+    display: flex;
+    gap: 270px;
+  }
+ }
+ @media screen and (min-width:431px) and (max-width:540px) {
+  .total{
+    margin-top: 10px;
+    display: flex;
+    gap: 380px;
+  }
+ }
+ @media screen and (min-width:541px) and (max-width:768px) {
+  .total{
+    margin-top: 10px;
+    display: flex;
+    gap: 526px;
+  }
+ }
+ @media screen and (min-width:769px) and (max-width:1024px) {
+  .total{
+    margin-top: 10px;
+    display: flex;
+    gap: 606px;
+  }
+ }
+ @media screen and (min-width:1025px) and (max-width:1500px) {
+  .total{
+    margin-top: 10px;
+    display: flex;
+    gap: 537px;
+  }
+ }
+
+  .to-shipping{
+    display: flex;
+  }
+
+  .ship-and-payNow{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 8px;
+  }
+
+  .pay-now{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  @media screen and (min-width:1025px) and (max-width:1500px) {
+    .medium-font{
+      font-size: 15px;
+    }
+  }

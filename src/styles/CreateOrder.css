@@ -1,0 +1,716 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: auto;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .logo-co {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .logo-co {
+    width: 150px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .logo-co {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo-co {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .logo-co {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .books-co {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .books-co {
+    width: 150px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .books-co {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .books-co {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .books-co {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+}
+
+.country-box {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.country-choice {
+  width: 100%;
+  border: none;
+  border-color: transparent;
+}
+
+.country-choice select:focus {
+  outline: none;
+  border: none;
+  border-color: transparent;
+}
+
+@media screen and (max-width: 320px) and (min-width: 430px) {
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 431px) and (min-width: 540px) {
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 541px) and (min-width: 768px) {
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 769px) and (max-width: 1024px) {
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 1025px) and (max-width: 1500px) {
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+}
+
+.address {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.apartment {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .state-box {
+    width: 100%;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 540px) {
+  .state-box {
+    width: 100%;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .state-box {
+    width: 100%;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .state-box {
+    width: 100%;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .city {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .city {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .city {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .city {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .city {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .city {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+.state-choice {
+  width: 100%;
+  border: no;
+  outline: none;
+}
+
+.state-choice:active {
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .pincode {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .pincode {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .pincode {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .pincode {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .pincode {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.phone {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.save {
+  width: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .shipping-details {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .shipping-details {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .shipping-details {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .shipping-details {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .shipping-details {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+  }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .item-details {
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: f4f4f4;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .item-details {
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: f4f4f4;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .item-details {
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: f4f4f4;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .item-details {
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: f4f4f4;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .item-details {
+    margin-top: 0px;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    background-color: #f4f4f4 !important;
+  }
+}
+
+.intro {
+  display: flex;
+  gap: 30px;
+}
+@media screen and (min-width: 320px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .loc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 540px) {
+  .loc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.check-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.save-info {
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .save-info {
+    padding-top: 5px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+.to-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cart-btn {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  justify-content: flex-start;
+  border: none;
+}
+.cart-btn:hover {
+  background-color: transparent;
+  color: black;  
+  border: none;
+}
+
+.shipping-btn {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 375px) {
+  .shipping-btn {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width:430px) {
+  .book-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 431px) and (max-width:540px) {
+  .book-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 92px;
+  }
+}
+@media screen and (min-width: 541px) and (max-width:768px) {
+  .book-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 174px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  .book-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 218px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width:1500px) {
+  .book-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+
+
+.text {
+  padding-top: 25px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:430px) {
+  .subtotal {
+    display: flex;
+    justify-content: flex-start;
+    gap: 93px;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width:540px) {
+  .subtotal {
+    display: flex;
+    justify-content: flex-start;
+    gap: 231px;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width:768px) {
+  .subtotal {
+    display: flex;
+    justify-content: flex-start;
+    gap: 377px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  .subtotal {
+    display: flex;
+    justify-content: flex-start;
+    gap: 427px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width:1500px) {
+  .subtotal {
+    display: flex;
+    justify-content: flex-start;
+    gap: 162px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:430px) {
+  .ship {
+    display: flex;
+    justify-content: flex-start;
+    gap: 88px;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width:540px) {
+  .ship {
+    display: flex;
+    justify-content: flex-start;
+    gap: 228px;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width:768px) {
+  .ship {
+    display: flex;
+    justify-content: flex-start;
+    gap: 367px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  .ship {
+    display: flex;
+    justify-content: flex-start;
+    gap: 422px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1500px) {
+  .ship {
+    display: flex;
+    justify-content: flex-start;
+    gap: 228px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:430px) {
+  .order-total {
+    display: flex;
+    justify-content: flex-start;
+    gap: 103px;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width:540px) {
+  .order-total {
+    display: flex;
+    justify-content: flex-start;
+    gap: 242px;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width:768px) {
+  .order-total {
+    display: flex;
+    justify-content: flex-start;
+    gap: 377px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  .order-total {
+    display: flex;
+    justify-content: flex-start;
+    gap: 432px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1500px) {
+  .order-total {
+    display: flex;
+    justify-content: flex-start;
+    gap: 483px;
+  }
+}
+
+.price {
+  display: flex;
+}
+
+.inr {
+  padding-top: 10px;
+}
