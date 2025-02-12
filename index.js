@@ -1,3 +1,4 @@
+//index.js
 require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
@@ -9,6 +10,7 @@ const Book = require("./models/Book.js");
 const authRoutes = require("./routes/auth.js");
 const cartRoutes = require('./routes/cart.js');
 const bookRoutes = require('./routes/book.js');
+const favoritesRoutes = require('./routes/favoriteRoutes.js');
 const helmet = require('helmet');
 
 const app = express();
@@ -36,6 +38,7 @@ app.use(cors(corsConfig));
 app.use("/api/auth", authRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/book', bookRoutes);
+app.use('/favorite', favoritesRoutes);
 
 // Multer storage configuration for file uploads
 const storage = multer.diskStorage({
